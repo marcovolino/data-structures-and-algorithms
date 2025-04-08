@@ -161,17 +161,17 @@ int main()
     // Append and print
     arr.append(3);
     std::cout << "arr.get_size()=" << arr.get_size() << " arr.get_capacity()=" <<arr.get_capacity() << std::endl;
-    
+    // Append and print
     arr.append(4);
     std::cout << "arr.get_size()=" << arr.get_size() << " arr.get_capacity()=" <<arr.get_capacity() << std::endl;
-    
+    // Append and print
     arr.append(7);
     std::cout << "arr.get_size()=" << arr.get_size() << " arr.get_capacity()=" <<arr.get_capacity() << std::endl;
-
+    // Append and print
     arr.append(2);
     std::cout << "arr.get_size()=" << arr.get_size() << " arr.get_capacity()=" <<arr.get_capacity() << std::endl;
 
-    //
+    // Append and print - check capacity
     arr.append(1);
     std::cout << "arr.get_size()=" << arr.get_size() << " arr.get_capacity()=" <<arr.get_capacity() << std::endl;
     arr.print();
