@@ -119,8 +119,7 @@ myArray.append(5)
 # Print Array contents
 print(myArray)
 
-Output: [3,4,7,2,1,5] 
-
+Output: [3,4,7,2,1,5]
 ```
 
 Arrays can also be appended to array
