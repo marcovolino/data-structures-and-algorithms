@@ -1,14 +1,19 @@
 ---
 layout: page
-title: Data Structures and Algorithms
 ---
 
-This website documents the theory and implementation of various data structures and algorithms.
+![DSA](../image/banner.png)
 
-Code examples can be found in the [code repositry](https://github.com/marcovolino/data-structures-and-algorithms).
+## Welcome
+
+This website documents the theory and implementation of common data structures and algorithms useful for programming problems.
+Example implementations can be found in the [code repositry](https://github.com/marcovolino/data-structures-and-algorithms).
 
 
-**Key Concepts**:
+## Contents
+
+
+#### Key Concepts
 
 - [Data Structures](concepts/data-structures) - TODO
 - [Alogrithms](concepts/algorithms) - TODO
@@ -16,17 +21,17 @@ Code examples can be found in the [code repositry](https://github.com/marcovolin
 
 
 
-**Data Structures**:
+#### Data Structures
 
 - [Arrays](data-structures/arrays)  
-- [Strings]() - TODO
+- [Strings](data-structures/strings)  
 - [Queue]() - TODO
 - [Stack]() - TODO
 - [Linked Lists]() - TODO 
 
 
 
-**Algorithms**:
+#### Algorithms
 
 - [Bubble Sort]() - TODO
 
