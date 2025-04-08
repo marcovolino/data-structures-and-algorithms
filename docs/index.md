@@ -2,7 +2,7 @@
 layout: page
 ---
 
-![DSA](../image/banner.png)
+![DSA](image/banner.png)
 
 ## Welcome
 
