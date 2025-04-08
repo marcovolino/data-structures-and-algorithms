@@ -117,9 +117,15 @@ public:
     }
     
     // return the size of the array
-    unsigned int size()
+    unsigned int get_size()
     {
         return m_size;
+    }
+    
+    // return the capcaity of the array
+    unsigned int get_capacity()
+    {
+        return m_capacity;
     }
     
     // Function to print elements - Warning assumes the type has a print function
@@ -153,22 +159,32 @@ int main()
     
     // Append and print
     arr.append(3);
+    std::cout << "arr.get_size()=" << arr.get_size() << " arr.get_capacity()=" <<arr.get_capacity() << std::endl;
+    
     arr.append(4);
+    std::cout << "arr.get_size()=" << arr.get_size() << " arr.get_capacity()=" <<arr.get_capacity() << std::endl;
+    
     arr.append(7);
-    arr.append(2);
-    arr.append(1);
-    arr.print();
-    std::cout << "arr.size()=" << arr.size() << std::endl;
+    std::cout << "arr.get_size()=" << arr.get_size() << " arr.get_capacity()=" <<arr.get_capacity() << std::endl;
 
+    arr.append(2);
+    std::cout << "arr.get_size()=" << arr.get_size() << " arr.get_capacity()=" <<arr.get_capacity() << std::endl;
+
+    //
+    arr.append(1);
+    std::cout << "arr.get_size()=" << arr.get_size() << " arr.get_capacity()=" <<arr.get_capacity() << std::endl;
+    arr.print();
+    
     // Remove data and print
     arr.remove(2);
+    std::cout << "arr.get_size()=" << arr.get_size() << " arr.get_capacity()=" <<arr.get_capacity() << std::endl;
     arr.print();
-    std::cout << "arr.size()=" << arr.size() << std::endl;
-
+    
     // insert and print
     arr.insert(100,2);
     arr.print();
     
+    // example of get
     std::cout << "arr.get(3)=" << arr.get(3) << std::endl;
     
     
