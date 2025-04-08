@@ -26,7 +26,7 @@ Common methods that should be implemented by a string class are:
 
 - A string has O(n) space complexity, where n is the number of characters
 - Accessing a character of a string has O(1) time complexity - just like an array!
-- Concatanation is O(n) time complexity
+- Concatenation is O(n) time complexity
 - Getting a substring is O(k) time complexity, where k is the length of the substring.
 
 
@@ -37,7 +37,7 @@ In C++, a string can be defined using C-style syntax `char[]` or using the Stand
 
 Using the `char[]` syntax, a string can be defined and printed as follows:
 ```c++
-//include iostrem for output
+//include iostream for output
 #include <iostream>
 
 // declare string
@@ -231,3 +231,4 @@ Output: myString1 contains myString2 starting at 7
 Strings may look simple, but they have depth — from encoding to performance. 
 - Python makes strings beginner-friendly and flexible.
 - C++ gives you more control, but also more responsibility - it is generally always best to use `std::string` over `char[]`.
+- In Python, strings are immutable—you cannot modify them after creation. In contrast, C++ std::string allows modifications like replacing or appending characters.
