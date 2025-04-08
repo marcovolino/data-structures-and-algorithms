@@ -4,7 +4,7 @@ An array is a data structure that stores elements in a fixed-size, contiguous bl
 
 
 
-![Image of an Array](image/array.png)
+![Image of an Array](../image/array.png)
 
 ## Array examples in c++
 Arrays can be implemented in c++ using the following [] notation, as shown below:
