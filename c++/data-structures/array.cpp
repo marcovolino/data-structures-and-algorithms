@@ -19,9 +19,10 @@ private:
     // Keeps track of the number of elements
     unsigned int m_size;
     
-    // resize
+    // function to resize array
     void resize(int new_capacity)
     {
+        // Declare new array at new capacity
         T* new_data = new T[new_capacity];
     
         // Copy data from old array to new array
@@ -75,7 +76,7 @@ public:
         // check index is within expected size
         if (index >= m_size)
         {
-            throw std::out_of_range("Attempting to remove index outside the scope of the array");
+            throw std::out_of_range("Attempting to insert index outside the scope of the array");
         }
         
         // Assign value at index
