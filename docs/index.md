@@ -3,7 +3,10 @@ layout: page
 title: Data Structures and Algorithms
 ---
 
-Below is a list of the topic covered
+This website documents the theory and implementation of various data structures and algorithms.
+
+Code examples can be found in the [code repositry](https://github.com/marcovolino/data-structures-and-algorithms).
+
 
 **Key Concepts**:
 
@@ -25,6 +28,6 @@ Below is a list of the topic covered
 
 **Algorithms**:
 
--[Bubble Sort]() - TODO
+- [Bubble Sort]() - TODO
 
 
