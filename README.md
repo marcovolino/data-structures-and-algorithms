@@ -1,2 +1,8 @@
-# data-structures-and-algorithms
-Implementation and documentation about data structures and algorithms
+# Data Structures and Algorithms
+
+## Introduction
+Here is a collection of data structures and algorithms implemented in c++ and python.
+
+
+## Contributors
+- Marco Volino
