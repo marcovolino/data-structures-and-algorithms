@@ -8,10 +8,9 @@ Arrays allow fast access to elements but have fixed size, meaning resizing requi
 They are ideal for storing ordered data like lists of numbers, characters, or objects.
 However, inserting or deleting elements in the middle can be costly since it may require shifting elements. 
 
-
 ![Image of an Array](../image/array.png)
 
-**Interface**
+### Interface
 
 Arrays should ideally implement: 
 
@@ -25,14 +24,13 @@ Features and implementations vary across programming languages.
 
 A basic C++ implementation of a templated dynamically-allocated array can be found in the [code repository](https://github.com/marcovolino/data-structures-and-algorithms/blob/main/c%2B%2B/data-structures/DynamicArray.cpp).
 
-**Complexity**
+### Complexity
 
 - An array is O(n) space complexity, where n is the number of elements
 - Access operations are O(1) time complexity - generally implemented using pointer arithmetic.
 - Update operations are O(1) time complexity
 - Insert operations are O(n) complexity
 - Delete operations are O(n) complexity
-
 
 
 ## Arrays in C++
@@ -163,11 +161,8 @@ myArray.extend(myArray2)
 # Print Array
 print(myArray) 
 
-Output:  [3,4,7,2,1,5, 6, 8 ]
+Output:  [3,4,7,2,1,5,6,8]
 ```
-
-
-
 
 
 ## Summary
