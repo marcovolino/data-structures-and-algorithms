@@ -8,7 +8,7 @@ An **array** is a data structure that stores elements in a fixed-size, contiguou
 
 
 
-![Image of an Array](/image/array.png)
+![Image of an Array](../image/array.png)
 
 **Interface**
 
