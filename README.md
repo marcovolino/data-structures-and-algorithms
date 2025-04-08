@@ -1,5 +1,5 @@
 
-![DSA](docs/images/banner.png)
+![DSA](docs/image/banner.png)
 
 
 ## Introduction
