@@ -19,7 +19,7 @@ procedure bubbleSort(array):
 ## Algorithm Example
 **Input**: [4,3,7,5,1]
 
-| Outer Loop  | Inner Loop | Initial State | Swap? |   Result          |
+| Outer Loop  | Inner Loop | Initial State | Swap? | Result |
 |:-----------:|:----------:|:-------------:|:-----:|-------------|
 |      0      |      0     |  [**4,3**,7,5,1]  |  swap | [**3,4**,7,5,1] |
 |      0      |      1     |  [3,**4,7**,5,1]  |       | [3,**4,7**,5,1] |
@@ -68,6 +68,7 @@ for(int i=0; i<data.size(); i++)
 }
 std::cout << std::endl;
 ```
+
 ## Python implementation
 ```python
 data = [7,5,6,2,1]
