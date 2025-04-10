@@ -1,3 +1,4 @@
+# data
 data = [7,5,6,2,1]
 
 # get data length
