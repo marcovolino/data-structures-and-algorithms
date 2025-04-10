@@ -71,6 +71,7 @@ std::cout << std::endl;
 
 ## Python implementation
 ```python
+# data
 data = [7,5,6,2,1]
 
 # get data length
