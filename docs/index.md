@@ -11,24 +11,29 @@ This website documents the theory and implementation of common data structures a
 
 ##  Contents
 #### Key Concepts
-- [Data Structures](concepts/data-structures) - TODO
-- [Alogrithms](concepts/algorithms) - TODO
-- [Complexity](concepts/complexity) - TODO
+- [Data Structures](concepts/data-structures)
+- [Alogrithms](concepts/algorithms) 
+- [Complexity](concepts/complexity)
 
 
 #### Data Structures
 - [Arrays](data-structures/arrays)  
-- [Strings](data-structures/strings) - TODO 
+- [Strings](data-structures/strings) 
+- [Linked Lists]() - TODO 
 - [Queue]() - TODO
 - [Stack]() - TODO
-- [Linked Lists]() - TODO 
-
 
 #### Algorithms
-- [Bubble Sort](algorithms/bubblesort) - TODO
+
+- Sorting:
+  - [Bubble Sort](algorithms/bubblesort)
+
+- Searching:
 
 
+#### Problems
 
-
-
+Cracking the Coding Interview:
+- Arrays and Strings
+  - [[001] Is Unique](problems/cci-001-is-unique)
 
