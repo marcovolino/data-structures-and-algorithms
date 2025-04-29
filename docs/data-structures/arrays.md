@@ -116,7 +116,9 @@ print(myArray[0])
 # get length of array
 print("myArray contains " + str(len(myArray)) + " elements")
 
+---
 Output: myArray contains 5 elements
+---
 ```
     
 In python, Lists also include functions to `append()` and `extend()`
@@ -176,9 +178,9 @@ myArray.extend(myArray2)
 # Print Array
 print(myArray) 
 
-----------
+---
 Output:  [3,4,7,2,1,5,6,8]
-----------
+---
 ```
 
 ## Summary
