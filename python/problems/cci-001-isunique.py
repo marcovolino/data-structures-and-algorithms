@@ -4,17 +4,17 @@
 #
 def is_unique(str):
     
-    # If length is greater than 128 then there must be repeating chars as there are only 128 chars in unicode
+    # If length is greater than 128 then there must be repeating chars as there are only 128 chars in standard ASCII
     if len(str) > 128:
         return False;
     
-    # Init bool array of length 128 to track if a char has been seen, with the index being the unicode number
+    # Init bool array of length 128 to track if a char has been seen, with the index being the standard ASCII number
     char_check = [False] * 128
     
     # Go through all chars in the string
     for i in range(0, len(str)):
         
-        # convert the char into unicode using the ord() function
+        # convert the char into standard ASCII using the ord() function
         val = ord(str[i])
         
         # Check if char exists in bool array

@@ -7,11 +7,11 @@
  */
 bool is_unique(std::string str)
 {
-    // If length is greater than 128 then there must be repeating chars as there are only 128 chars in unicode
+    // If length is greater than 128 then there must be repeating chars as there are only 128 chars in standard ASCII
     if(str.length() > 128)
         return false;
     
-    // init bool array of length 128 to track if a char has been used, with the index being the unicode number
+    // init bool array of length 128 to track if a char has been used, with the index being the standard ASCII number
     std::vector<bool> char_check(128, false);
 
     // Go through all chars in the string
