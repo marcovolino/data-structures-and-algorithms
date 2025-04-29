@@ -34,7 +34,7 @@ procedure bubbleSort(array):
 
 **Output**: [1,3,4,5,7]
 
-## C++ implementation
+## C++ Implementation
 ```c++
 //Data
 std::array<int,5> data = {7,5,6,2,1};
@@ -69,7 +69,7 @@ for(int i=0; i<data.size(); i++)
 std::cout << std::endl;
 ```
 
-## Python implementation
+## Python Implementation
 ```python
 # data
 data = [7,5,6,2,1]
